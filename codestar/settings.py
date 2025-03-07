@@ -47,12 +47,14 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'crispy_forms',
     'crispy_bootstrap4',
+    'crispy_bootstrap5',
     'django_summernote',
     'blog',
     'about',
 ]
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
